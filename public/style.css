@@ -21,7 +21,25 @@ body {
 }
 .header {
     grid-area: header;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.brand a{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-links a{
+    color: white;
+    text-decoration: none;
+
+}
+.header-links
+
 .main {
     grid-area: main;
 }
