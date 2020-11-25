@@ -38,7 +38,9 @@ body {
     text-decoration: none;
 
 }
-.header-links
+.header-links a:hover {
+    color: orangered;
+}
 
 .main {
     grid-area: main;
