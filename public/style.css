@@ -72,6 +72,13 @@ body {
     border-bottom: .1rem #c0c0c0 solid;
 }
 
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .product-name {
     font-size:2rem ;
     font-weight: bold;
