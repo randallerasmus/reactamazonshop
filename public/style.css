@@ -55,12 +55,20 @@ body {
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: #ff8000;
+}
+
 /* Home Screen*/
 
 .products {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .products li {
@@ -90,8 +98,8 @@ body {
 }
 
 .product-price{
-    font-size: 2.5rem;
-
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .product-image {
@@ -99,3 +107,6 @@ body {
     max-height: 34rem;
 }
 
+.product-rating{
+    margin-bottom: 1rem;
+}
