@@ -70,4 +70,8 @@ body {
     border-bottom: .1rem #c0c0c0 solid;
 }
 
+.product-image {
+    max-width: 34rem;
+    max-height: 34rem;
+}
 
